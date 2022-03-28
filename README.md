@@ -1,6 +1,5 @@
 ## Sistema de archivos
-![7007ecefc1f353458d1d13330f07dae8.png](:/5f933a6d43f84b0e8c12d0d2877bdeaf)
-
+![https://raw.githubusercontent.com/fabiansato/fabiansato.github.io/main/imagenes/sistemaarchivoslinux.png](:/5f933a6d43f84b0e8c12d0d2877bdeaf)
 ## Descriptores de rutas:
 
 `/` Ruta raíz del sistema
@@ -15,22 +14,34 @@
 ## Atajos de teclado:
 
 **CTRL-C** Termina el proceso de un comando en la terminal
+
 **CTRL-D** Termina el input deun comando
+
 **CTRL-A** Avanza al inicio de la línea
+
 **CTRL-E** avanza al final de la línea
+
 **CTRL-L** limpia la pantalla de la terminal
 
 ## Operaciones con los directorios
 `pwd` imprime el directorio actual
+
 `mkdir dir1` Crea el directorio con nombre *dir1*
+
 `cd dir1` Cambia el directorio con nombre *dir1*
+
 `cd ../..` Cambia dos directorios anteriores del actual
+
 `cd` cambia el directorio home del usuario uso:
+ejemplo:
 ```
 cd <parámetro>
 ```
+
 `ls` Muestra archivos y directorios
+
 `tree /ruta` Muestra todos los archivos y directorios anidados dentro de la ruta a cualquier nivel de profundidad
+
 `tree -L 2` Muestra todos los archivos y directorios anidados dentro de la ruta actual a dos niveles de profundidad
 
 
@@ -147,18 +158,24 @@ comando
 
 # Wildcards
 `*` Coincide con cualquier carácter
+
 `?` Coincide con cualquier carácter individual
-`[caracteres]` Coincide con cualquier carácter que sea miembro
-del conjunto caracteres
-`[!caracteres]` Coincide con cualquier carácter que no sea
-miembro del conjunto caracteres
+
+`[caracteres]` Coincide con cualquier carácter que sea miembro del conjunto caracteres
+
+`[!caracteres]` Coincide con cualquier carácter que no sea miembro del conjunto caracteres
+
 `[[:clase:]]` Coincide con cualquier carácter de la clase
 
 ## Clases dentro de los Wildcards
 `[:alnum:]` Coincide con cualquier carácter alfanumérico
+
 `[:alpha:]` Coincide con cualquier carácter alfabético
+
 `[:digit:]` Coincide con cualquier número
+
 `[:lower:]` Coincide con cualquier letra minúscula
+
 `[:upper:]` Coincide con cualquier letra mayúscula
 
 # Redirecciones I/O y operadores de control:
