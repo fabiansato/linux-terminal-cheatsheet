@@ -1,5 +1,6 @@
 ## Sistema de archivos
-![https://raw.githubusercontent.com/fabiansato/fabiansato.github.io/main/imagenes/sistemaarchivoslinux.png](:/5f933a6d43f84b0e8c12d0d2877bdeaf)
+![Sistema de archivos Linux]([https://raw.githubusercontent.com/fabiansato/fabiansato.github.io/main/imagenes/sistemaarchivoslinux.png])
+
 ## Descriptores de rutas:
 
 `/` Ruta raíz del sistema
