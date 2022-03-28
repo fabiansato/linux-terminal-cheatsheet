@@ -1,11 +1,16 @@
 ## Sistema de archivos
 ![7007ecefc1f353458d1d13330f07dae8.png](:/5f933a6d43f84b0e8c12d0d2877bdeaf)
+
 ## Descriptores de rutas:
 
 `/` Ruta raíz del sistema
+
 `.` directorio actual
+
 `..` Directorio anterior
+
 `~` Directorio home del usuario
+
 
 ## Atajos de teclado:
 
